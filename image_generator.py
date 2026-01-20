@@ -100,7 +100,7 @@ def create_system_flow_diagram():
     plt.tight_layout()
     plt.savefig('system_flow_diagram.png', dpi=300, bbox_inches='tight')
     plt.show()
-    print("✅ System flow diagram saved as 'system_flow_diagram.png'")
+    print("System flow diagram saved as 'system_flow_diagram.png'")
 
 def create_input_output_comparison():
     """Create input/output comparison visualization"""
@@ -160,7 +160,7 @@ def create_input_output_comparison():
     plt.tight_layout()
     plt.savefig('input_output_comparison.png', dpi=300, bbox_inches='tight')
     plt.show()
-    print("✅ Input/Output comparison saved as 'input_output_comparison.png'")
+    print("Input/Output comparison saved as 'input_output_comparison.png'")
 
 def create_architecture_diagram():
     """Create system architecture diagram"""
@@ -219,11 +219,11 @@ def create_architecture_diagram():
     plt.tight_layout()
     plt.savefig('system_architecture.png', dpi=300, bbox_inches='tight')
     plt.show()
-    print("✅ System architecture saved as 'system_architecture.png'")
+    print("System architecture saved as 'system_architecture.png'")
 
 def main():
     """Generate all visual diagrams"""
-    print("🎨 Generating PDF Query System Visual Diagrams...")
+    print("Generating PDF Query System Visual Diagrams...")
     print("=" * 50)
     
     # Generate all diagrams
@@ -231,7 +231,7 @@ def main():
     create_input_output_comparison()
     create_architecture_diagram()
     
-    print("\n🎉 All diagrams generated successfully!")
+    print("\n All diagrams generated successfully!")
     print("Files created:")
     print("- system_flow_diagram.png")
     print("- input_output_comparison.png") 
