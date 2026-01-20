@@ -1,0 +1,10 @@
+langchain>=0.1.0
+langchain-community>=0.0.10
+pypdf2>=3.0.1
+python-dotenv>=1.0.0
+openai>=1.6.1
+faiss-cpu>=1.8.0
+tiktoken>=0.5.2
+matplotlib>=3.7.1
+pillow>=10.0.0
+graphviz>=0.20.1
